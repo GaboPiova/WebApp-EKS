@@ -21,4 +21,4 @@ services:
 
 networks:
   tp4-network:
-    driver: bridge  
+    driver: bridge
