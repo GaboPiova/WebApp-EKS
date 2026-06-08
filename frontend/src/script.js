@@ -5,7 +5,7 @@ async function conectar() {
 
     try {
         // En producción, le pegaremos al endpoint del backend
-        const response = await fetch('http://backend-service:3000/api/login', {
+        const response = await fetch('/api/login', {    
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ username: user, password: pass })
